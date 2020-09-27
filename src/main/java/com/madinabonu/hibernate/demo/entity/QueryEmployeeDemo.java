@@ -11,7 +11,6 @@ public class QueryEmployeeDemo {
         //Create Session Factory
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Employees.class)
                 .buildSessionFactory();
 
         //Create Session

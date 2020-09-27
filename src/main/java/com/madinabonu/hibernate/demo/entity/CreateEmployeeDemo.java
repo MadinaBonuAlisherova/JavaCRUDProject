@@ -1,6 +1,5 @@
 package com.madinabonu.hibernate.demo.entity;
 
-import com.madinabonu.hibernate.demo.entity.Employees;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -11,7 +10,6 @@ public class CreateEmployeeDemo {
         //Create Session Factory
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(Employees.class)
                 .buildSessionFactory();
 
         //Create Session
