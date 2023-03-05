@@ -10,8 +10,8 @@
 
         <property name="connection.driver_class">org.postgresql.Driver</property>
         <property name="connection.url">jdbc:postgresql://localhost:5432/postgres?useSSL=false&amp;serverTimezone=UTC</property>
-        <property name="connection.username">postgres</property>
-        <property name="connection.password">Madinabonu.2000</property>
+        <property name="connection.username"></property>
+        <property name="connection.password"></property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">1</property>
